@@ -43,3 +43,104 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  /* Fonts */
+@font-face {
+    font-family: 'SerifFont';
+    src: url('path-to-serif-font.woff2') format('woff2');
+    /* Add font formats and paths for different browsers */
+  }
+  
+  @font-face {
+    font-family: 'SansSerifFont';
+    src: url('path-to-sans-serif-font.woff2') format('woff2');
+    /* Add font formats and paths for different browsers */
+  }
+  
+  /* General Text Styling */
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'SerifFont', serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'SansSerifFont', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+  }
+  
+  section p:first-child {
+    text-indent: 20px;
+  }
+  
+  /* Links Styling */
+  a {
+    text-decoration: underline;
+    color: #336699;
+  }
+  
+  a:visited {
+    color: #663366;
+  }
+  
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #990000;
+  }
+  
+  a:active {
+    color: #FF9933;
+  }
+  
+  a.external-link::after {
+    content: "\2197"; /* External link icon */
+    margin-left: 5px;
+  }
+  
+  /* Lists Styling */
+  ul, ol {
+    margin: 1.6rem 0;
+  }
+  
+  li {
+    line-height: 1.6;
+    list-style-type: disc; /* Custom bullet image or other styling can be used */
+  }
+  
+  /* Navigation Menu Styling */
+  .nav-menu {
+    background-color: #336699;
+    padding: 10px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+  }
+  
+  .nav-menu a:hover {
+    color: #FF9933;
+  }  
