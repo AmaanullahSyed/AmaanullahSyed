@@ -12,7 +12,7 @@ const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
 const inserty = ["the soup kitchen", "Disneyland", "the White House"];
 const insertz = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
 
-randconst.addEventListener('click', resultconst);
+randconst.addEventListener('click', result);
 
 function resultconst (){
     let newStory = storyText;
