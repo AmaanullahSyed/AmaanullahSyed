@@ -1,3 +1,11 @@
+/*
+    <!--
+	Name: Amaanullah
+	File: main.js
+	Date: 25 November 2023
+	Adding to the Javascript
+	-->
+*/
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
